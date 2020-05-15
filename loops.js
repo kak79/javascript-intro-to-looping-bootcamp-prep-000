@@ -33,7 +33,7 @@ function whileLoop(n){
 function doWhileLoop(num){
   var num = 1 
   do {
-    
+    num += 10
   }
   
   incrementVariable() < num
