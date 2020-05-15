@@ -32,10 +32,17 @@ function whileLoop(n){
 //console logs "I run once regardless." 10 times when passed an integer of 10 as a parameter.
 function doWhileLoop(num){
   
-  
+  let i = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+ 
   
   do {
     console.log("I run once regardless.")
   }
   while (incrementVariable() < num);
 }
+
