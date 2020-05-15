@@ -36,5 +36,5 @@ function doWhileLoop(num){
     num += 10
   }
   
-  incrementVariable() < num
+  
 }
